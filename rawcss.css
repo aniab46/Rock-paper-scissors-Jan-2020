@@ -1,0 +1,7 @@
+* {margin: 0;padding: 0; }
+.header{background: darkmagenta; color:burlywood;  text-align: center;padding: 40px 0;  }
+.header h1 {font-weight: 900;font-family: monospace;font-size: 50px} 
+.competitionBox{border: 10px solid darkslategray;display: flex; justify-content: space-around; background: url(images/depositphotos_290801032-stock-video-beautiful-bright-blue-light-neon.jpg) no-repeat top center/cover; padding: 50px 0;overflow: hidden; background-size: 100% 100%}
+.images {display: inherit;text-align: center}
+.images img{ width:200px;height: 250px; margin:25px 55px; border: 15px solid darkslategray; color: cornflowerblue;border-radius: 30px;transition: 1s}
+.images img:hover{ cursor: pointer; box-shadow: 2px 10px 30px 2px cornflowerblue;transform: scale(1.1)}
